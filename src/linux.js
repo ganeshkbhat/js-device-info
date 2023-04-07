@@ -1,12 +1,12 @@
 /**
  * 
- * Package: device-info
+ * Package: jssysinfo
  * Author: Ganesh B
- * Description: Nodejs npm module to 
- * Install: npm i  --save
- * Github: https://github.com/ganeshkbhat/
- * npmjs Link: https://www.npmjs.com/package/
- * File: index.mjs
+ * Description: Nodejs npm module to provide all hardware device, os, drivers information of the system. supports major operating systems
+ * Install: npm i jssysinfo --save
+ * Github: https://github.com/ganeshkbhat/js-device-info
+ * npmjs Link: https://www.npmjs.com/package/jssysinfo
+ * File: linux.js
  * File Description: 
  * 
  * 
@@ -15,3 +15,19 @@
 /* eslint no-console: 0 */
 
 'use strict';
+
+
+let macLinuxCommands = {
+    "CPUARCH": "uname -a",
+    "CPUINFO": "cat /proc/cpuinfo",
+    "LSCPUINFO": "lscpu",
+    "MEMINFO": "cat /proc/meminfo",
+    "ALLHARWAREINFO": "lshw -numeric",
+    "LSUSBDEVICES": "lsusb -v",
+    "LSPCIDEVICES": "lspci -v",
+    "DRIVEINFO": "free -h",
+    "DRIVEPARTITIONSINFO": "cat /proc/partitions",
+    "DMIDECODE": "export LC_ALL=C; dmidecode ; unset LC_ALL",
+    "CPUDMIDECODE": "export LC_ALL=C; dmidecode -t processor -t cache; unset LC_ALL"
+}
+

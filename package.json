@@ -33,7 +33,26 @@
     "url": "https://github.com/  /issues",
     "email": "desktopcgi@gmail.com"
   },
-  "keywords": [],
+  "keywords": [
+    "hardware information", 
+    "device information", 
+    "hardware id", 
+    "hardware details", 
+    "OS details", 
+    "OS information", 
+    "CPU Information", 
+    "GPU Information", 
+    "dmidecode", 
+    "usb devices", 
+    "bluetooth devices", 
+    "wifi devices", 
+    "network interfaces", 
+    "scsi information", 
+    "pci information", 
+    "motherboard information", 
+    "processor information", 
+    "BIOS information"
+  ],
   "author": "Ganesh B <desktopcgi@gmail.com>",
   "license": "MIT"
 }
