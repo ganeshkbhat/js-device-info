@@ -6,7 +6,7 @@
  * Install: npm i jssysinfo --save
  * Github: https://github.com/ganeshkbhat/js-device-info
  * npmjs Link: https://www.npmjs.com/package/jssysinfo
- * File: linux.mjs
+ * File: index.mjs
  * File Description: 
  * 
  * 
