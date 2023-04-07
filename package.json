@@ -1,6 +1,6 @@
 {
-  "name": "deviceinfo",
-  "version": "1.0.0",
+  "name": "jssysinfo",
+  "version": "0.0.1",
   "description": "npm module to provide all hardware device, os, drivers information of the system. supports major operating systems",
   "main": "index.js",
   "scripts": {
