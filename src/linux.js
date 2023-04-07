@@ -57,7 +57,7 @@ let macLinuxCommands = {
     "PROCESSESUSERS_PROC_SCSI": "cat /proc/scsi",
     "PROCESSESUSERS_PROC_TTY": "cat /proc/tty",
     "PROCESSESUSERS_PROC_VERSION": "cat /proc/version",
-    
+
     // PID => Replace PID
     "PROCESSESUSERS_PID_CMDLINE": "/proc/PID/cmdline",
     "PROCESSESUSERS_PID_CPU": "/proc/PID/cpu",
@@ -74,3 +74,27 @@ let macLinuxCommands = {
 
 }
 
+var sysinfo = {
+    os: {},
+    devices: {
+        motherboard: {},
+        networkInterfaces: {},
+        scsi: {},
+        pci: {},
+        usb: {},
+        drives: {},
+        cpus: {},
+        gpus: {},
+        dmi: {},
+        memory: {}
+    },
+    filesystem: {},
+    processes: {
+        processes: {},
+        users: {}
+    },
+    processPid: {},
+    network: {}
+}
+
+module.exports = sysinfo;

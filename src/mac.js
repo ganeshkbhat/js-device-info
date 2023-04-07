@@ -16,3 +16,29 @@
 
 'use strict';
 
+
+
+var sysinfo = {
+    os: {},
+    devices: {
+        motherboard: {},
+        networkInterfaces: {},
+        scsi: {},
+        pci: {},
+        usb: {},
+        drives: {},
+        cpus: {},
+        gpus: {},
+        dmi: {},
+        memory: {}
+    },
+    filesystem: {},
+    processes: {
+        processes: {},
+        users: {}
+    },
+    processPid: {},
+    network: {}
+}
+
+module.exports = sysinfo;
