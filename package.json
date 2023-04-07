@@ -1,0 +1,39 @@
+{
+  "name": "deviceinfo",
+  "version": "1.0.0",
+  "description": "npm module to provide all hardware device, os, drivers information of the system. supports major operating systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --config ./mocha.test.config.js --timeout 60000"
+  },
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "./src/**",
+    "bin": "./bin/**"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "4.3.6",
+    "eslint": "8.11.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "mocha": "9.2.2",
+    "sinon": "13.0.1",
+    "supertest": "6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/.git"
+  },
+  "bugs": {
+    "url": "https://github.com/  /issues",
+    "email": "desktopcgi@gmail.com"
+  },
+  "keywords": [],
+  "author": "Ganesh B <desktopcgi@gmail.com>",
+  "license": "MIT"
+}
